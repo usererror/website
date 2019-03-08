@@ -14,9 +14,9 @@ theme = "hello-friend"
   name = "usererror"
 
 [params]
-  # dir name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
   defaultTheme = "dark"
+  showReadingTime = true
 
 [languages]
   [languages.en]
@@ -30,6 +30,7 @@ theme = "hello-friend"
     readOtherPosts = "Read other posts"
     newerPosts = "Newer posts"
     olderPosts = "Older posts"
+    minuteReadingTime = "min read"
 
     [languages.en.params.logo]
       logoText = "usererror"
@@ -39,4 +40,4 @@ theme = "hello-friend"
       [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
-        url = "/about"
+        url = "/about/about"
