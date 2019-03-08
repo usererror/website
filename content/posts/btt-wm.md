@@ -30,7 +30,7 @@ Adding new shortcuts is relatively easy:
 ## Disappointment and Remorse
 When I first configured BetterTouchTool, I tried using simple modifier combinations with the default Vim movement keys (`⌥ + ⌘ + H` to move a window to the left side of the screen for example). 
 
-This approach failed miserably. I effectively spent $20 to turn my computer into a loud, temperamental, unpredictable error simulator. After about a week of being blasted by unexpected bell noises and inconsistent behavior, I was ready to give up on my quest for sane window management and uninstall BetterTouchTool in the hopes of finding some sanity again.
+This approach failed miserably. I effectively spent $20 to turn my computer into a loud, temperamental, unpredictable error simulator. After about a week of being plagued by inconsistent behavior and getting blasted by unexpected bells, I was almost ready to give up and uninstall BetterTouchTool in the hopes of finding some sanity again.
 
 # Diagnosis
 After researching other window management apps like [Spectacle](https://www.spectacleapp.com/) and [Amethyst](https://ianyh.com/amethyst/), I discovered the issue was just that many MacOS applications (and the OS itself) define shortcuts that use simple modifier combinations like `^ + ⇧` and `⌥ + ⌘` which often interfere with shortcuts defined in BetterTouchTool that use the same modifiers. The answer is to this problem is to define a "Hyper Key" using a program called Karabiner-Elements. A "Hyper Key" is a single key that transmits the  `^ + ⌥  + ⇧ + ⌘` key combination when pressed.
