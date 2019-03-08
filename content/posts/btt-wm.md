@@ -1,5 +1,5 @@
 ---
-title: "BetterTouchTool as Window Manager"
+title: "OSX Window Management with BetterTouchTool"
 date: 2019-03-05T08:46:59-05:00
 ---
 
